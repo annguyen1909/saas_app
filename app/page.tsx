@@ -32,13 +32,20 @@ const page = () => {
           subject="science"
           duration={40}
           color="#BDE7FF" />
+        <CompanionCard
+          id="789"
+          name="Neura The Brainy Explorer"
+          topic="Neural Network of the Brain"
+          subject="science"
+          duration={40}
+          color="#BDE7FF" />
       </section>
 
       <section className='home-section'>
         <CompanionList
-          title = "Recently completed sessions"
-          companions = {recentSessions}
-          classNames = "w-2/3 max-lg:w-full"
+          title="Recently completed sessions"
+          companions={recentSessions}
+          classNames="w-2/3 max-lg:w-full"
         />
         <CTA />
       </section>
